@@ -1,0 +1,2 @@
+[my-server]
+app  ansible_host=172.31.11.46 ansible_ssh_user=artem

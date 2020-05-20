@@ -1,0 +1,8 @@
+---
+- name: TESTIK
+  hosts: app
+  tasks:
+    - name: Проверка соединения с NTP
+      shell: ls -lah
+      register: shashlik
+    - debug: var=shashlik.stdout
